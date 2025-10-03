@@ -1,0 +1,51 @@
+/* Estilo general de la tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+/* Encabezado de la tabla */
+thead {
+  background-color: #2c3e50;
+  color: #ffffff;
+}
+
+thead th {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 2px solid #34495e;
+}
+
+/* Cuerpo de la tabla */
+tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody td {
+  padding: 10px;
+  color: #333333;
+}
+
+/* Hover sobre filas */
+tbody tr:hover {
+  background-color: #e0f7fa;
+  cursor: pointer;
+}
+
+/* Estilo para celdas numéricas o alineadas a la derecha */
+td.numeric {
+  text-align: right;
+}
+
+/* Estilo para celdas destacadas */
+td.highlight {
+  background-color: #ffe082;
+  font-weight: bold;
+}
